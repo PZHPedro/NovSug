@@ -1,0 +1,22 @@
+En este documento "txt" se describen la nomenclatura de las clases y algunos metodos.
+
+*DESCRIPCION DE PAQUETES
+-Interfaz: Componentes visuales (ventanas, paenles, etc).
+-Objetos: Abstraccion de algun objeto o individuo del mundo real (empleados, productos, etc).
+-Conexiones: Clases que implementan la conexion a internet (servidores, Base de datos, etc.
+-Multimedia: Elementos de indole decorativa (fotos, audios, etc).
+
+*SIGNIFICADO DE LA NOMENCLATURA DE LAS CLASES
+Todas las clases llevan por nombre, un nombre propio con prefijos haciendo referencia al tipo de 
+componente que es, y en algunos casos el de donde derivan.
+
+*SIGNIFICADO DE LOS PREFIJOS EN EL NOMBRE DE LAS CLASES
+-F: JFrame
+-P: JPanel.
+-C: Conexcion.
+-FON: Fondos.
+-U: Usuarios.
+Los subfijos estan concatenados con un numero decimal, esto permite tener una jerarquia al heredear el prefijo a la clase que derive de este.
+
+*METODOS UTILIZADOS FRECUENTE MENTE
+-AddPanel: Agrega un componente JPanel a otro comonente.
